@@ -25,7 +25,9 @@ def get_exchange(valute_name):
 #     return result
 
 
-# print(load_exchange()['Valute'])
-
-
-print(get_exchange('USD'))
+# for exc in load_exchange()['Valute']:
+#     print(exc)
+# # print(load_exchange()['Valute'])
+#
+#
+# # print(get_exchange('USD'))
